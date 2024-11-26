@@ -1,0 +1,20 @@
+First of all we need to clean the data.
+A dataframe of the csv file created using pandas library.
+By executing pd.info() and pd.describe() we can see that the there are many null values and duplicates
+Also the unit_price section is in the object (text) type that has to be converted into the float / string.
+
+
+Libraries used: 
+- pandas
+- psycopg2
+- sqlalchemy
+
+
+Q1. Find the different payment method and number of transactions,number of quantity sold
+Q2. Identify the highest rated category in each branch and displaying each branch and the category.
+Q3. Find the busiest day for each branch based on the number of transactions.
+Q4. Calculate the total quantity of items sold per payment method. List payment_method
+Q5. Determine the average, maximum, minimum, rating of the products for each city. List city, min_rating, max_rating and avg_rating
+Q6. Calculate the total profit for each category by considering total_profit as (unti_price * quantity * profit_margin). List category and total_profit ordered from highest to lowest.
+Q7.
+Q8. Categorise sales into 3 groups morning, afternoon, evening. Find out each of the shift and number of invoices.
